@@ -1,0 +1,18 @@
+# Security (CRITICAL)
+.env
+
+# Virtual Environments
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# IDE folders (PyCharm)
+.idea/
+
+# Streamlit/FAISS cache (Optional but keeps repo clean)
+*.faiss
+*.pkl
+.streamlit/
