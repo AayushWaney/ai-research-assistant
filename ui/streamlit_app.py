@@ -3,7 +3,7 @@ import os
 import sys
 from dotenv import load_dotenv
 
-# Let Python know where to find our rag_engine folder
+# Let Python know where to find rag_engine folder
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from rag_engine.ingestion import load_and_chunk_files
